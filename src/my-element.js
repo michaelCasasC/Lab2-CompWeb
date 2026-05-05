@@ -1,0 +1,7 @@
+import "./components/header"
+import "./components/footer"
+import "./components/card"
+import "./pages/gallery"
+import "./pages/home"
+import "./pages/direction"
+import "./router/router"
