@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit";
 
-class Footer extends LitElement {
+class Card extends LitElement {
      
     static properties = {
         src: {type: String}, //tipos de datos: Number, Boolean, object, Array 
@@ -46,7 +46,7 @@ class Footer extends LitElement {
      render(){
         return html `
             <div class="card">
-                <img src="${this.src}" alt="${titulo}">
+                <img src="${this.src}" alt="${this.titulo}">
                 <div>
                     <h3>${this.titulo}</h3>
                     <p>${this.descripcion}</p>
@@ -56,3 +56,4 @@ class Footer extends LitElement {
      }
 
 }
+customElements.define("mi-card", Card);

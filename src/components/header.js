@@ -80,7 +80,8 @@ class Header extends LitElement {
                     <a href="/gallery">Galería</a>
                     <a href="/direction">Dirección</a>
                     <a href="/nosotros">Nosotros</a>
-                    <a href="/preguntas">Preguntas Frecuentes</a>
+                    <a href="/question">Preguntas Frecuentes</a>
+    
                 </nav>
             </div>
         </header>

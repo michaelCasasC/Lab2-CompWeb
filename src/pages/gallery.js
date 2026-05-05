@@ -56,10 +56,10 @@ class GalleryPage extends LitElement {
 
         <div class= "galeria">
             ${this.elements.map ((element)=> html`
-                <mi-card>
+                <mi-card
                     src="${element.src}"
-                    titulo= "${element.titulo}"
-                    descripcion= "${element.descripcion}"
+                    titulo="${element.titulo}"
+                    descripcion="${element.descripcion}">
                 </mi-card>
 
                 `)}

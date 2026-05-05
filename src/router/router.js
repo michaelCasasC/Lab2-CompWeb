@@ -16,7 +16,16 @@ router.setRoutes([
     ,{
         path:"/direction",
         component: "mi-direccion"
-    },{
+    },
+    {
+        path: "/question",
+        component: "my-question"
+    },
+    {
+        path: "/nosotros",
+        component:"mi-nosotros"
+    },
+    {
 
         path:"(.*)",
         redirect:"/"
